@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+	<name>Google Percurso</name>
+	<author>Ribamar FS</author>
+	<creationDate>Abril de 2016</creationDate>
+	<copyright>(C) 2016 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>ribafs@gmail.com</authorEmail>
+	<authorUrl>http://ribafs.org</authorUrl>
+	<version>1.0</version>
+	<description>Este módulo exibe o mapa do Google e traça o percurso no mapa entre dois endereços.</description>
+	<files>
+		<filename module="mod_percurso_google">mod_percurso_google.php</filename>
+		<filename>index.html</filename>
+		<filename>percurso.html</filename>
+	</files>
+</extension>
